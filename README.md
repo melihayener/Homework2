@@ -1,7 +1,9 @@
 # Course Management API
 
 Bu proje GELECEĞİ YAZAN KADINLAR YAPAY ZEKA kapsamında verilmiş olan ödevin çözümüdür. Ödev aşağıdaki gibidir:
+
 `//
+
 Görev 2: Bu görev dosyasını benimle (En sevdiğiniz hocanız) paylaşınız.
 Online Eğitim Sistemi – Analiz ve Modelleme Aşağıda, Category, Course, Lesson, Student ve Payment modüllerini içeren bir online eğitim sisteminin analizi ve modellemesi yer almaktadır.
 Sistem Gereksinimleri
@@ -22,6 +24,7 @@ Post işlemlerinde  örneğin kategori ismi tekrar edemez. Bu kural tüm name ol
 Put ve patch işlemlerinde kategori ismi başka bir kategoride varsa tekrar edemez ama kendi datası için geçerli değil.
 //POST { "id":1 "name":"Giyim", "description":"Çok güzel kıyafetler" }
 //PUT/1 { "name":"Giyim", "description":"Çok güzel giysiler" }`
+
 
 Bu proje, kurs yönetim sistemi için bir **RESTful API** sağlar. **Kategoriler, kurslar, dersler, öğrenciler, kayıtlar ve ödemeleri** yönetmek için geliştirilmiştir.
 
