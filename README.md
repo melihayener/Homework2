@@ -3,7 +3,6 @@
 Bu proje GELECEĞİ YAZAN KADINLAR YAPAY ZEKA kapsamında verilmiş olan ödevin çözümüdür. Ödev aşağıdaki gibidir:
 
 `//
-
 Görev 2: Bu görev dosyasını benimle (En sevdiğiniz hocanız) paylaşınız.
 Online Eğitim Sistemi – Analiz ve Modelleme Aşağıda, Category, Course, Lesson, Student ve Payment modüllerini içeren bir online eğitim sisteminin analizi ve modellemesi yer almaktadır.
 Sistem Gereksinimleri
