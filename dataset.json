@@ -1,0 +1,219 @@
+{
+  "Categories": [
+    {
+      "id": "1",
+      "name": "Cybersecurity Update",
+      "description": "Security and ethical hacking and update"
+    },
+    {
+      "id": "2",
+      "name": "Data Science 2",
+      "description": "Veri bilimi dersleri anlatılır"
+    },
+    {
+      "id": "5",
+      "name": "Cloud Computing",
+      "description": "Cloud technologies and architectures"
+    },
+    {
+      "id": "2f6f",
+      "name": "Calculus",
+      "description": "İleri seviye matematik"
+    }
+  ],
+  "Courses": [
+    {
+      "id": "1",
+      "title": "Python for Beginners",
+      "description": "Learn Python from scratch",
+      "category_id": 1,
+      "price": 49.99,
+      "created_at": "2025-02-10"
+    },
+    {
+      "id": "2",
+      "title": "Machine Learning Basics",
+      "description": "Introduction to ML",
+      "category_id": 2,
+      "price": 79.99,
+      "created_at": "2025-02-10"
+    },
+    {
+      "id": "3",
+      "title": "Cybersecurity 202",
+      "description": "Learn the basics of cybersecurity",
+      "category_id": 3,
+      "price": 59.99,
+      "created_at": "2025-02-11"
+    },
+    {
+      "id": "5",
+      "title": "AWS Cloud Essentials",
+      "description": "Learn the fundamentals of AWS",
+      "category_id": 5,
+      "price": 89.99,
+      "created_at": "2025-02-13"
+    },
+    {
+      "title": "Temel Matematik Dersi",
+      "description": "Temel matematik öğrenilecek",
+      "category_id": 5,
+      "price": 89.99,
+      "created_at": "2025-02-13",
+      "id": "6"
+    }
+  ],
+  "Lessons": [
+    {
+      "id": "1",
+      "title": "Introduction to Python",
+      "content": "Basics of Python",
+      "video_url": "http://example.com/python1",
+      "course_id": 1
+    },
+    {
+      "id": "2",
+      "title": "Fizik2",
+      "content": "Temel fizik öğrenilecek",
+      "video_url": "http://example.com/ml1",
+      "course_id": 2
+    },
+    {
+      "id": "4",
+      "title": "Neural Networks",
+      "content": "Basics of neural networks",
+      "video_url": "http://example.com/ai1",
+      "course_id": 4
+    },
+    {
+      "id": "5",
+      "title": "AWS Basics",
+      "content": "Introduction to AWS services",
+      "video_url": "http://example.com/aws1",
+      "course_id": 5
+    },
+    {
+      "id": "6",
+      "title": "Temel Matematik",
+      "description": "Temel matematik öğrenilecek",
+      "vieo_url": "http://example.com/math",
+      "course_id": 4
+    }
+  ],
+  "Students": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "password": "updated_password"
+    },
+    {
+      "id": "2",
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "password": "hashed_password"
+    },
+    {
+      "id": "3",
+      "name": "Charlie Davis",
+      "email": "charlie@example.com",
+      "password": "hashed_password"
+    },
+    {
+      "id": "4",
+      "name": "David Wilson",
+      "email": "david@example.com",
+      "password": "hashed_password"
+    },
+    {
+      "id": "5",
+      "name": "Emma Brown",
+      "email": "emma@example.com",
+      "password": "hashed_password"
+    }
+  ],
+  "Enrollments": [
+    {
+      "id": "1",
+      "student_id": 1,
+      "course_id": 1,
+      "status": "Tamamlandı",
+      "enrolled_at": "2025-02-10"
+    },
+    {
+      "id": "2",
+      "student_id": 2,
+      "course_id": 2,
+      "status": "Devam Ediyor",
+      "enrolled_at": "2025-02-11"
+    },
+    {
+      "id": "3",
+      "student_id": 3,
+      "course_id": 3,
+      "status": "Tamamlandı",
+      "enrolled_at": "2025-02-12"
+    },
+    {
+      "id": "4",
+      "student_id": 4,
+      "course_id": 4,
+      "status": "İptal Edildi",
+      "enrolled_at": "2025-02-13"
+    },
+    {
+      "id": "5",
+      "student_id": 5,
+      "course_id": 5,
+      "status": "Devam Ediyor",
+      "enrolled_at": "2025-02-14"
+    }
+  ],
+  "Payments": [
+    {
+      "id": "1",
+      "student_id": 1,
+      "course_id": 1,
+      "amount": 49.99,
+      "status": "Başarılı",
+      "transaction_id": "TX12345",
+      "paid_at": "2025-02-10"
+    },
+    {
+      "id": "2",
+      "student_id": 2,
+      "course_id": 2,
+      "amount": 79.99,
+      "status": "Beklemede",
+      "transaction_id": "TX67890",
+      "paid_at": "2025-02-11"
+    },
+    {
+      "id": "3",
+      "student_id": 3,
+      "course_id": 3,
+      "amount": 59.99,
+      "status": "Başarılı",
+      "transaction_id": "TX54321",
+      "paid_at": "2025-02-12"
+    },
+    {
+      "id": "4",
+      "student_id": 4,
+      "course_id": 4,
+      "amount": 99.99,
+      "status": "Başarısız",
+      "transaction_id": "TX98765",
+      "paid_at": "2025-02-13"
+    },
+    {
+      "id": "5",
+      "student_id": 5,
+      "course_id": 5,
+      "amount": 89.99,
+      "status": "Başarılı",
+      "transaction_id": "TX11111",
+      "paid_at": "2025-02-14"
+    }
+  ]
+}
